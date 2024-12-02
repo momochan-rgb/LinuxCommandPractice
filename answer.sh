@@ -10,8 +10,7 @@ $ cd
 $ cd ~/geekationWorkspace
 
 # 4. `LinuxCommandPractice`というディレクトリを作成して、`LinuxCommandPractice`に移動してください。
-$ mkdir LinuxCommandPractice
-cd LinuxCommandPractice
+$ mkdir LinuxCommandPractice && cd LinuxCommandPractice
 
 # 5. カレントディレクトリのパスを表示してください。
 $ pwd
@@ -29,13 +28,13 @@ $ git push -u origin main
 # ここまでGithubリポジトリ作成時の初期コマンド
 
 # 7. `LinuxCommandPractice`ディレクトリに`.git`ディレクトリが表示されていることを確認してください。
-$ ls
+$ ls -a
 
 # 8. `LinuxCommandPractice`ディレクトリ内に`practice_dir_1`ディレクトリを作成してください。
 $ mkdir practice_dir_1
 
 # 9. `LinuxCommandPractice`ディレクトリ内に`practice_dir_1`ディレクトリが作成されていることを確認(表示)してください。
-$ ls
+$ ls -l
 
 # 10. `LinuxCommandPractice`ディレクトリ内から**移動せずに**、`practice_dir_1`内に`practice_dir_2`というディレクトリを作成してください。**但し、相対パスを使用してください。**
 $ mkdir practice_dir_1/practice_dir_2
@@ -73,4 +72,4 @@ i
 I'm good at Linux commands!
 
 # 21. `practice_file1.txt`に書き込んだ内容を出力してください。
-:wq
+$ cat practice_file1.txt
